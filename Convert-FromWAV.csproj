@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Convert_FromWAV</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PowerShellStandard.Library" Version="5.1.0">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+    <!-- Kaitai Struct Runtime Library -->
+    <PackageReference Include="KaitaiStruct.Runtime.CSharp" Version="0.9.0" />
+  </ItemGroup>
+
+</Project>
